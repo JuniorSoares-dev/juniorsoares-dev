@@ -71,6 +71,42 @@
       </section>
     </div>
     <section class="servicos" id="servicos">
+      <svg
+        class="servicos-curva"
+        viewBox="0 0 390 1200"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <defs>
+          <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#89939e" stop-opacity="0" />
+            <stop offset="45%" stop-color="#aeb8c2" stop-opacity="0.12" />
+            <stop offset="65%" stop-color="#e2e6eb" stop-opacity="0.42" />
+            <stop offset="100%" stop-color="#89939e" stop-opacity="0" />
+          </linearGradient>
+
+          <linearGradient id="metal-fade" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="white" stop-opacity="0.8" />
+            <stop offset="55%" stop-color="white" stop-opacity="0.35" />
+            <stop offset="100%" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+
+        <path
+          d="M 430 40 C 260 130, 340 250, 190 380 S 80 620, 300 780 S 330 1000, 100 1250"
+          fill="none"
+          stroke="url(#metal)"
+          stroke-width="1.5"
+        />
+
+        <path
+          d="M 430 40 C 260 130, 340 250, 190 380 S 80 620, 300 780 S 330 1000, 100 1250"
+          fill="none"
+          stroke="url(#metal-fade)"
+          stroke-opacity="0.12"
+          stroke-width="7"
+        />
+      </svg>
       <header class="servicos-header">
         <div class="servicos-label">
           <span class="linha-servicos"></span>
