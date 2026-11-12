@@ -5,14 +5,19 @@
 
   background:
     radial-gradient(
-      ellipse at 50% 0%,
-      rgba(100, 110, 120, 0.1),
-      transparent 55%
+      ellipse at 90% 18%,
+      rgba(150, 160, 170, 0.09),
+      transparent 42%
     ),
-    linear-gradient(180deg, #0b0d10 0%, #070809 55%, #050607 100%);
+    radial-gradient(
+      ellipse at 10% 75%,
+      rgba(90, 100, 110, 0.06),
+      transparent 45%
+    ),
+    linear-gradient(180deg, #0b0d10, #070809 55%, #090b0e);
 
-  padding: 4rem 1.5rem;
   display: flex;
+  padding: 4rem 1.5rem;
   flex-direction: column;
   gap: 3rem;
 }
