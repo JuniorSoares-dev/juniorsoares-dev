@@ -55,7 +55,6 @@ js-portifolio/
 
 * Finalização do menu de navegação mobile.
 * Criação da seção Sobre mim.
-* Criação da seção Habilidades.
 * Implementação da seção Contato.
 * Melhorias contínuas na responsividade e experiência do usuário.
 
