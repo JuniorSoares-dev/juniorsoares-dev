@@ -22,12 +22,6 @@
   z-index: 0;
   pointer-events: none;
 }
-
-.servicos-header,
-.lista-servicos {
-  position: relative;
-  z-index: 1;
-}
 .servicos-label {
   display: flex;
   align-items: center;
@@ -45,10 +39,18 @@
   height: 1px;
   background-color: #c0c0c0;
 }
+.servicos-header,
+.lista-servicos {
+  position: relative;
+  z-index: 1;
+}
 .servicos-header {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.servicos-header > p {
+  max-width: 85%;
 }
 .servicos-header h2 {
   font-size: 2.2rem;
@@ -85,6 +87,7 @@
   color: #c0c0c0;
 }
 .lista-servicos h3 {
+  max-width: 85%;
   font-size: 1.25rem;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -100,4 +103,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+}
+.servico-info > p{
+  max-width: 85%;
 }
