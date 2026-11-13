@@ -104,3 +104,6 @@
   flex-direction: column;
   gap: 0.2rem;
 }
+.servico-info > p{
+  max-width: 85%;
+}
