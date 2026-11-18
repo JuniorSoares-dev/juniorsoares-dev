@@ -15,6 +15,9 @@
 .projetos-header h2 {
   font-size: 1.7rem;
 }
+.projetos-header h2 span {
+  color: #d6b894;
+}
 .projetos-header p {
   color: #c0c0c0;
 }
@@ -149,10 +152,9 @@
   gap: 0.5rem;
 
   padding: 0.55rem 0.8rem;
-  border: 1px solid rgba(214, 184, 148, 0.35);
+  border-bottom: 2px solid #d6b894;
   border-radius: 999px;
 
-  background-color: rgba(214, 184, 148, 0.06);
   color: #f0f0f0;
 
   font-size: 0.75rem;
@@ -164,15 +166,16 @@
     background-color 0.3s ease,
     border-color 0.3s ease;
 }
+.projeto-info-bottom a:hover {
+  background-color: rgba(214, 184, 148, 0.06);
+  color: #d6b894;
+}
 .projeto-info-bottom a span {
   display: inline-block;
   transition: transform 0.3s ease;
 }
 .projeto-info-bottom a:hover span {
   transform: translateX(4px);
-}
-.projeto-info-bottom a:hover {
-  color: #d6b894;
 }
 .projeto-info-bottom a:focus-visible {
   outline: 2px solid #d6b894;
