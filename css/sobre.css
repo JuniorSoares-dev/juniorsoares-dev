@@ -1,8 +1,12 @@
 .sobre {
+width: 100%;
+min-height: 100vh;
+
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/images/fundo-sobre-mobile.png");
+  background-image: url("../assets/images/fundo-sobre-mobilee.webp");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 4rem 1.5rem;
   gap: 2rem;
