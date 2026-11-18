@@ -54,7 +54,7 @@
 }
 .servicos-header h2 {
   max-width: 85%;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.1;
   color: #f0f0f0;
@@ -105,7 +105,7 @@
   flex-direction: column;
   gap: 0.2rem;
 }
-.servico-info > p{
+.servico-info > p {
   max-width: 85%;
 }
 html.js-reveal-enabled .reveal {
@@ -126,5 +126,10 @@ html.js-reveal-enabled .reveal.is-visible {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+}
+@media (max-width: 381px) {
+  .servicos-header h2 {
+    font-size: 1.7rem;
   }
 }
