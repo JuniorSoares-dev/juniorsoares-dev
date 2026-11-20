@@ -151,9 +151,8 @@
   justify-content: center;
   gap: 0.5rem;
 
-  padding: 0.55rem 0.8rem;
+  padding-bottom: 4px;
   border-bottom: 2px solid #d6b894;
-  border-radius: 999px;
 
   color: #f0f0f0;
 
