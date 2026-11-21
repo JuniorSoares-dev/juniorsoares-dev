@@ -39,9 +39,11 @@ min-height: 100vh;
   gap: 0.5rem;
 }
 .sobre-info h2{
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: 400;
 }
 .sobre-info h2 span{
+  font-weight: 600;
   color: #d6b894;
 }
 .sobre-info p {

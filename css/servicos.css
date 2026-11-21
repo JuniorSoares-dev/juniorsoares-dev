@@ -55,7 +55,7 @@
 .servicos-header h2 {
   max-width: 85%;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.1;
   color: #f0f0f0;
 }
@@ -128,8 +128,4 @@ html.js-reveal-enabled .reveal.is-visible {
     transition: none;
   }
 }
-@media (max-width: 381px) {
-  .servicos-header h2 {
-    font-size: 1.7rem;
-  }
-}
+

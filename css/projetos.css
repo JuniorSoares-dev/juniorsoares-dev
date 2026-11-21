@@ -13,10 +13,12 @@
   gap: 1rem;
 }
 .projetos-header h2 {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: 400;
 }
 .projetos-header h2 span {
   color: #d6b894;
+  font-weight: 600;
 }
 .projetos-header p {
   color: #c0c0c0;
