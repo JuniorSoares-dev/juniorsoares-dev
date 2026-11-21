@@ -38,6 +38,14 @@ min-height: 100vh;
   flex-direction: column;
   gap: 0.5rem;
 }
+.sobre-info h2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.sobre-info h2 span{
+  font-weight: 600;
+  color: #d6b894;
+}
 .sobre-info p {
   color: #c0c0c0;
 }
