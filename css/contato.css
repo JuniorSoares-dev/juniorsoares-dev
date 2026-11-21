@@ -1,14 +1,9 @@
-.contato-fundo {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
+.contato {
   background-image: url("../assets/images/fundo-contato-mobile.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  pointer-events: none;
-}
-.contato {
+
   position: relative;
   overflow: hidden;
   isolation: isolate;
