@@ -59,7 +59,6 @@
 }
 .hero-content > p {
   font-weight: 400;
-  margin-bottom: 1rem;
 }
 .hero-bottom {
   display: flex;
@@ -118,7 +117,7 @@
     --angulo: 360deg;
   }
 }
-@media (max-width: 381px) {
+@media (max-width: 400px) {
   .hero-content h1 {
     font-size: 2.2rem;
   }
